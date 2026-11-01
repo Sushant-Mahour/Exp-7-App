@@ -525,10 +525,10 @@ body {
 #nextToStep11 { visibility: hidden; }
 
 /* Step 12 Specific Coords */
-#transbox12a { top: 170px; left: 245px; width: 130px; height: 130px; }
-#arrow12a { top: 140px; left: 280px; width: 60px; }
-#transbox12b { top: 170px; left: 445px; width: 130px; height: 130px; }
-#arrow12b { top: 140px; left: 480px; width: 60px; }
-#transbox12c { top: 170px; left: 645px; width: 130px; height: 130px; }
-#arrow12c { top: 140px; left: 680px; width: 60px; }
+#transbox12a { top: 130px; left: 450px; width: 130px; height: 130px; }
+#arrow12a { top: 140px; left: 450px; width: 60px; }
+#transbox12b { top: 100px; left: 770px; width: 130px; height: 130px; }
+#arrow12b { top: 95px; left: 790px; width: 60px; }
+#transbox12c { top: 240px; left: 660px; width: 100px; height: 70px; }
+#arrow12c { top: 245px; left: 705px; width: 60px; }
 #nextToFinish { visibility: hidden; }
