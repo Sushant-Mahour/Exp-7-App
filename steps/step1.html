@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiment 4 - Step 1</title>
+    <link rel="stylesheet" href="../style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="simulation-container">
+        <h1 class="title">Apparent Density of Leather</h1>
+        <p class="instruction-text" id="instructionText">
+            <span class="step-badge">Step 1</span>
+            Click on the highlighted area to start the step.
+        </p>
+        <div class="sim-area" id="step1">
+            <img id="staticImg1" src="../assets/gifs/step1_first.png" class="media-layer">
+            <img id="gif1" class="media-layer" style="display: none;">
+            
+            <div id="interactionLayer1">
+                <div class="transbox" id="transbox1" title="Click here!"></div>
+                <img src="../assets/gifs/arrow_down.gif" class="arrow" id="arrow1">
+            </div>
+        </div>
+        <div class="toolbar">
+            <button class="btn-nav btn-prev" id="prevBtn">◀ Back</button>
+            <div class="progress-bar" aria-hidden="true"><div class="progress-fill" style="width:12%"></div></div>
+            <button class="btn-nav btn-next" id="nextToStep2">Next ▶</button>
+        </div>
+    </div>
+    <script src="step1.js"></script>
+</body>
+</html>

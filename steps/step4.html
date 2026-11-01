@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiment 4 - Step 4</title>
+    <link rel="stylesheet" href="../style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="simulation-container">
+        <h1 class="title">Apparent Density of Leather</h1>
+        <p class="instruction-text" id="instructionText">
+            <span id="stepText">Click on the highlighted area to start step 4a.</span>
+        </p>
+        <div class="sim-area" id="step4">
+            <!-- Explicit image layers to avoid runtime loading lag -->
+            <img id="static4a_first" class="media-layer" src="../assets/gifs/Step d1_first.gif">
+            <img id="static4a_last" class="media-layer" src="../assets/gifs/Step d1_last.gif" style="display: none;">
+            <img id="static4b_last" class="media-layer" src="../assets/gifs/Step d2_last.gif" style="display: none;">
+            <img id="gif4" class="media-layer" style="display: none;">
+            
+            <!-- Interaction Layer for Step 4a -->
+            <div id="interactionLayer4a" class="interaction-layer">
+                <div class="transbox" id="transbox4a" title="Click here for step 4a!"></div>
+                <img src="../assets/gifs/arrow_down.gif" class="arrow" id="arrow4a">
+            </div>
+
+            <!-- Interaction Layer for Step 4b (hidden initially) -->
+            <div id="interactionLayer4b" class="interaction-layer" style="display: none;">
+                <div class="transbox" id="transbox4b" title="Click here for step 4b!"></div>
+                <img src="../assets/gifs/arrow_down.gif" class="arrow" id="arrow4b">
+            </div>
+        </div>
+        <div class="toolbar">
+            <button class="btn-nav btn-prev" id="prevBtn">◀ Back</button>
+            <div class="progress-bar" aria-hidden="true"><div class="progress-fill" style="width:75%"></div></div>
+            <button class="btn-nav btn-next" id="nextToStep5">Next ▶</button>
+        </div>
+    </div>
+    <script src="step4.js"></script>
+</body>
+</html>

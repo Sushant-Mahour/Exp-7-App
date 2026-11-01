@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiment 4 - Step 9</title>
+    <link rel="stylesheet" href="../style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="simulation-container">
+        <h1 class="title">Apparent Density of Leather</h1>
+        <p class="instruction-text" id="instructionText">
+            <span id="stepText">Click on the highlighted area to start step 9.</span>
+        </p>
+        <div class="sim-area" id="step9">
+            <!-- Explicit image layers to avoid runtime loading lag -->
+            <img id="static9a_first" class="media-layer" src="../assets/gifs/Step F_first.gif">
+            <img id="static9a_last" class="media-layer" src="../assets/gifs/Step F_last.gif" style="display: none;">
+            <img id="gif9" class="media-layer" style="display: none;">
+            
+            <!-- Interaction Layer for Step 9 -->
+            <div id="interactionLayer9a" class="interaction-layer">
+                <div class="transbox" id="transbox9a" title="Click here for step 9!"></div>
+                <img src="../assets/gifs/arrow_down.gif" class="arrow" id="arrow9a">
+            </div>
+        </div>
+        <div class="toolbar">
+            <button class="btn-nav btn-prev" id="prevBtn">◀ Back</button>
+            <div class="progress-bar" aria-hidden="true"><div class="progress-fill" style="width:100%"></div></div>
+            <button class="btn-nav btn-next" id="nextToStep10">Next ▶</button>
+        </div>
+    </div>
+    <script src="step9.js"></script>
+</body>
+</html>

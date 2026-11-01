@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiment 4 - Step 12</title>
+    <link rel="stylesheet" href="../style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="simulation-container">
+        <h1 class="title">Apparent Density of Leather</h1>
+        <p class="instruction-text" id="instructionText">
+            <span id="stepText">Click on the highlighted area to start step 12a.</span>
+        </p>
+        <div class="sim-area" id="step12">
+            <!-- Explicit image layers to avoid runtime loading lag -->
+            <img id="static12a_first" class="media-layer" src="../assets/gifs/Step g1_first.gif">
+            <img id="static12a_last" class="media-layer" src="../assets/gifs/Step g1_last.gif" style="display: none;">
+            <img id="static12b_last" class="media-layer" src="../assets/gifs/Step g2_last.gif" style="display: none;">
+            <img id="static12c_last" class="media-layer" src="../assets/gifs/Step g3_last.gif" style="display: none;">
+            <img id="gif12" class="media-layer" style="display: none;">
+            
+            <!-- Interaction Layer for Step 12a -->
+            <div id="interactionLayer12a" class="interaction-layer">
+                <div class="transbox" id="transbox12a" title="Click here for step 12a!"></div>
+                <img src="../assets/gifs/arrow_down.gif" class="arrow" id="arrow12a">
+            </div>
+
+            <!-- Interaction Layer for Step 12b (hidden initially) -->
+            <div id="interactionLayer12b" class="interaction-layer" style="display: none;">
+                <div class="transbox" id="transbox12b" title="Click here for step 12b!"></div>
+                <img src="../assets/gifs/arrow_down.gif" class="arrow" id="arrow12b">
+            </div>
+
+            <!-- Interaction Layer for Step 12c (hidden initially) -->
+            <div id="interactionLayer12c" class="interaction-layer" style="display: none;">
+                <div class="transbox" id="transbox12c" title="Click here for step 12c!"></div>
+                <img src="../assets/gifs/arrow_down.gif" class="arrow" id="arrow12c">
+            </div>
+        </div>
+        <div class="toolbar">
+            <button class="btn-nav btn-prev" id="prevBtn">◀ Back</button>
+            <div class="progress-bar" aria-hidden="true"><div class="progress-fill" style="width:92%"></div></div>
+            <button class="btn-nav btn-next" id="nextToFinal">Next ▶</button>
+        </div>
+    </div>
+    <script src="step12.js"></script>
+</body>
+</html>

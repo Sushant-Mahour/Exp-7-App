@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiment 4 - Introduction</title>
+    <link rel="stylesheet" href="../style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap" rel="stylesheet">
+    <style>
+        /* Optional explicit bottom-right positioning if toolbar flex isn't enough */
+        #startExperimentBtn {
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            z-index: 100;
+        }
+    </style>
+</head>
+<body>
+    <div class="simulation-container">
+        <h1 class="title">Apparent Density of Leather</h1>
+        <p class="instruction-text" id="instructionText">
+            <span id="stepText">Loading experiment...</span>
+        </p>
+        <div class="sim-area" id="step0">
+            <!-- Explicit image layers to avoid runtime loading lag -->
+            <!-- Note: Alpha doesn't have a first frame extracted, we just play it directly -->
+            <img id="static0_last" class="media-layer" src="../assets/gifs/step alpha_last.gif" style="display: none;">
+            <img id="gif0" class="media-layer" style="display: none;">
+        </div>
+        <div class="toolbar">
+            <div class="progress-bar" aria-hidden="true" style="visibility: hidden;"><div class="progress-fill" style="width:0%"></div></div>
+        </div>
+        <button class="btn-nav btn-next" id="startExperimentBtn">Start Experiment ▶</button>
+    </div>
+    <script src="step0.js"></script>
+</body>
+</html>
