@@ -1,0 +1,116 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "Which international standard governs the determination of apparent density and mass per unit area of leather, and what is its fundamental test principle?",
+      "answers": {
+        "a": "ISO 5402; cyclic flex cracking under repeated angular deflection",
+        "b": "ISO 2420 (IUP 4); treating a circular test disc as a regular cylinder to compute envelope volume from thickness and surface area, and dividing conditioned mass by volume",
+        "c": "ISO 11640; assessing surface color fastness to reciprocal rubbing cycles",
+        "d": "ISO 3376; measuring tensile breaking strength and elongation at break"
+      },
+      "correctAnswer": "b",
+      "difficulty": "basic"
+    },
+    {
+      "question": "What is the key scientific distinction between the 'apparent density' (bulk density) of leather and the 'true density' of its solid collagen matrix?",
+      "answers": {
+        "a": "Apparent density is measured at 100°C, whereas true density is measured at absolute zero",
+        "b": "Apparent density accounts for both the solid tanning-collagen network and internal void/pore volume, whereas true density (approx. 1.35 to 1.42 g/cm³) excludes all pores",
+        "c": "True density measures the mass per unit surface area, while apparent density measures tensile modulus",
+        "d": "Apparent density applies only to synthetic polymers, whereas true density applies to natural hides"
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Why does ISO 2419 mandate conditioning leather specimens at 20 ± 2°C and 65 ± 2% RH for at least 24 hours prior to mass and dimension measurements?",
+      "answers": {
+        "a": "To fully denature the fibrous triple helix of collagen protein",
+        "b": "To establish thermodynamic moisture sorption equilibrium, eliminating mass and swelling variations caused by the hygroscopic hysteresis of polar collagen peptide groups",
+        "c": "To completely evaporate all volatile tanning syntans and residual fatliquors",
+        "d": "To sterilize the leather against anaerobic bacterial biodeterioration during testing"
+      },
+      "correctAnswer": "b",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "According to ISO 2420, what is the nominal diameter and geometry of the circular test specimen cut by the steel press knife?",
+      "answers": {
+        "a": "Circular disc of 38.0 mm diameter",
+        "b": "Square specimen of 50.0 mm × 50.0 mm",
+        "c": "Circular disc of 70.0 mm diameter",
+        "d": "Circular disc of 140.0 mm diameter"
+      },
+      "correctAnswer": "c",
+      "difficulty": "basic"
+    },
+    {
+      "question": "In accordance with ISO 2589, what specific contact pressure and presser foot dimensions must be applied when measuring the thickness of compressible leather?",
+      "answers": {
+        "a": "Pressure of 10.0 ± 0.5 kPa with a 5.0 mm spherical anvil",
+        "b": "Pressure of 49.1 ± 1.0 kPa (approx. 393 g dead mass) across a flat circular presser foot of 10.00 mm diameter",
+        "c": "Pressure of 100.0 ± 5.0 kPa across a pointed conical tip of 1.0 mm radius",
+        "d": "Variable spring pressure ranging from 20 kPa to 200 kPa depending on leather stiffness"
+      },
+      "correctAnswer": "b",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "In the ISO 2420 multi-point thickness protocol, where are the four designated measurement points located on the 70 mm circular specimen?",
+      "answers": {
+        "a": "Four evenly spaced points positioned along the extreme outer circumference",
+        "b": "One central point (T₁) and three peripheral points (T₂, T₃, T₄) positioned 20.0 mm from the center forming an equilateral triangle",
+        "c": "Four points aligned in a single straight diametrical line across the grain",
+        "d": "Two points on the flesh side and two points on the grain side chosen at random"
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Why does ISO 2420 mandate measuring the diameter of the circular specimen along two mutually perpendicular directions (rotated by 90°)?",
+      "answers": {
+        "a": "To calibrate the zero baseline of the Vernier caliper between readings",
+        "b": "To account for specimen ovality caused by anisotropic viscoelastic recovery and differential fiber bundle orientation (Langer's lines) during die cutting",
+        "c": "To verify that the temperature has remained constant between cuts",
+        "d": "To test whether the cutting die has magnetized the leather matrix"
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "How is the internal void fraction (porosity, ε) of leather mathematically related to its apparent density (ρ) and true collagen density (ρ_t)?",
+      "answers": {
+        "a": "ε = (ρ / ρ_t) × 100%",
+        "b": "ε = [1 - (ρ / ρ_t)] × 100%",
+        "c": "ε = (ρ_t - ρ) / (ρ_t + ρ)",
+        "d": "ε = √(ρ × ρ_t) × 100%"
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "From which mathematical derivation does the numerical constant 1.273 × 10⁶ arise in the ISO 2420 apparent density formula ρ = (1.273 × 10⁶ × m) / (t × d²)?",
+      "answers": {
+        "a": "From the acceleration due to gravity (g = 9.80665 m/s²) multiplied by ambient air density",
+        "b": "From (4 / π) ≈ 1.27324 combined with conversion factors relating grams to kilograms (10⁻³) and cubic millimeters to cubic meters (10⁻⁹)",
+        "c": "From the moisture absorption isotherm coefficient at 65% relative humidity",
+        "d": "From the calibration ratio between the presser foot area and specimen surface area"
+      },
+      "correctAnswer": "b",
+      "difficulty": "advanced"
+    },
+    {
+      "question": "Which of the following leather types typically exhibits the highest apparent density, and what structural feature accounts for this?",
+      "answers": {
+        "a": "Milled lambskin garment nappa; due to loosely braided reticular collagen fibers",
+        "b": "Vegetable-tanned sole leather; due to heavy filling with vegetable polyphenolic tannins, dense fiber compaction, and mechanical rolling",
+        "c": "Chrome-tanned suede split; due to open interstitial voids and lack of grain layer",
+        "d": "Automotive upholstery leather; due to micro-cellular polyurethane foam backing"
+      },
+      "correctAnswer": "b",
+      "difficulty": "basic"
+    }
+  ]
+}
+

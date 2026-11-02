@@ -1,0 +1,2 @@
+To determine the apparent density ($\rho$) and mass per unit area of leather specimens by treating a circular disc specimen as a regular cylinder, measuring its thickness at specified multi-point geometric locations under standardized dead-weight pressure (ISO 2589), determining its orthogonal diameters using a precision Vernier caliper, and recording its conditioned mass on an analytical balance in accordance with ISO 2420:2017 (IUP 4) and ISO 2419.
+
